@@ -14,6 +14,14 @@ app = Flask(__name__, template_folder="./dist", static_folder="./dist/static")
 #def index():
 #    return render_template("index.html")
 
+"""
+参考实现地址:
+
+    如何把Vue集成到Flask中: https://www.yisu.com/zixun/145612.html
+    vue buid及部署踩坑记录: https://zhuanlan.zhihu.com/p/183223807
+
+"""
+
 
 @app.route('/hello')
 def hello():
