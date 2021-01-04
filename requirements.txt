@@ -1,0 +1,13 @@
+python-dotenv
+flask-Cors
+flask-sqlalchemy
+flask-httpauth
+flask-migrate
+Flask==1.1.2
+pyjwt
+eventlet==0.19.0
+greenlet==0.4.17
+PyYAML==5.3.1
+pysqlite3
+requests==2.23.0
+uwsgi
