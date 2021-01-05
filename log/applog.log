@@ -94,3 +94,97 @@ worker 1 buried after 1 seconds
 goodbye to uWSGI.
 VACUUM: pidfile removed.
 VACUUM: unix socket /Users/zhangxiaoshan/workspace/GitCache/bin/uwsgi/uwsgi.status (stats) removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan  5 14:27:35 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.32.62) on 07 December 2020 06:21:53
+os: Darwin-19.6.0 Darwin Kernel Version 19.6.0: Thu Jun 18 20:49:00 PDT 2020; root:xnu-6153.141.1~1/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhangxiaoshan/workspace/GitCache
+writing pidfile to ./bin/uwsgi/uwsgi.pid
+detected binary path: /Users/zhangxiaoshan/workspace/GitCache/venv/bin/uwsgi
+chdir() to .
+your processes number limit is 5568
+your memory page size is 4096 bytes
+detected max file descriptor number: 2560
+lock engine: OSX spinlocks
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:5056 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:57660 (port auto-assigned) fd 3
+Python version: 2.7.16 (default, Jun  5 2020, 22:59:21)  [GCC 4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.29.20) (-macos10.15-objc-selector-opts)]
+Python main interpreter initialized at 0x7fe31a407060
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486528 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fe31a407060 pid: 40123 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 40123)
+spawned uWSGI worker 1 (pid: 40124, cores: 1)
+spawned uWSGI worker 2 (pid: 40125, cores: 1)
+spawned uWSGI worker 3 (pid: 40126, cores: 1)
+spawned uWSGI worker 4 (pid: 40127, cores: 1)
+spawned uWSGI worker 5 (pid: 40128, cores: 1)
+*** Stats server enabled on ./bin/uwsgi/uwsgi.status fd: 20 ***
+spawned uWSGI http 1 (pid: 40129)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 40129)
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+[deadlock-detector] pid 40124 was holding lock thunder (0x10a587000)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket ./bin/uwsgi/uwsgi.status (stats) removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan  5 14:40:24 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.32.62) on 07 December 2020 06:21:53
+os: Darwin-19.6.0 Darwin Kernel Version 19.6.0: Thu Jun 18 20:49:00 PDT 2020; root:xnu-6153.141.1~1/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 12
+current working directory: /Users/zhangxiaoshan/workspace/GitCache
+writing pidfile to ./bin/uwsgi/uwsgi.pid
+detected binary path: /Users/zhangxiaoshan/workspace/GitCache/venv/bin/uwsgi
+chdir() to .
+your processes number limit is 5568
+your memory page size is 4096 bytes
+detected max file descriptor number: 2560
+lock engine: OSX spinlocks
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:5056 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:63318 (port auto-assigned) fd 3
+Python version: 2.7.16 (default, Jun  5 2020, 22:59:21)  [GCC 4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.29.20) (-macos10.15-objc-selector-opts)]
+Python main interpreter initialized at 0x7fef93e091c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486528 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fef93e091c0 pid: 40764 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 40764)
+spawned uWSGI worker 1 (pid: 40765, cores: 1)
+spawned uWSGI worker 2 (pid: 40766, cores: 1)
+spawned uWSGI worker 3 (pid: 40767, cores: 1)
+spawned uWSGI worker 4 (pid: 40768, cores: 1)
+spawned uWSGI worker 5 (pid: 40769, cores: 1)
+*** Stats server enabled on ./bin/uwsgi/uwsgi.status fd: 20 ***
+spawned uWSGI http 1 (pid: 40770)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 40770)
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+[deadlock-detector] pid 40765 was holding lock thunder (0x107f25000)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket ./bin/uwsgi/uwsgi.status (stats) removed.
