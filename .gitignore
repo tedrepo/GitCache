@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-dist.tar.gz
+/dist
 /log
 # local env files
 .env.local

@@ -3,9 +3,9 @@ export LANG='UTC-8'
 export LC_ALL='en_US.UTF-8'
 
 if [ 0"$MATRIX_CODE_DIR" = "0" ];then
-    export MATRIX_CODE_DIR="."
-    export MATRIX_APPLOGS_DIR="."
-    export MATRIX_PRIVDATA_DIR="."
+	export MATRIX_CODE_DIR="$(pwd)"
+	export MATRIX_APPLOGS_DIR="$(pwd)"
+	export MATRIX_PRIVDATA_DIR="$(pwd)"
     #export FAAS_DIR=$MATRIX_CODE_DIR/app/faas
 fi
 
